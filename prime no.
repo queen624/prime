@@ -1,0 +1,24 @@
+#include<iostream.h>
+Using namespece std;
+Bool check prime int[n];
+Int main()
+{
+Int n,i;
+Bool flag = false;
+Cout<<"enter a positive integer";
+Cin>>n;
+For (i=2;i<=n/2;++i){
+If(checkprime(i)){
+If(checkprime(n-i)){
+Cout<<n<<"="<<i<<"+"<<n-i<< end1;}
+Flag=true;
+}
+}
+}
+If(!flag)
+Cout<<n<<"can't be expressedas a sum of two prime numbers;
+Return 0;
+}
+
+
+
